@@ -1,0 +1,14 @@
+# Virtual environment: never commit it (large, machine-specific). Rebuild it from requirements.txt
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Gradio / editor files
+.gradio/
+.vscode/
+.idea/
+.DS_Store

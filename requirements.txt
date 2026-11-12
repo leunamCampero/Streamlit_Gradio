@@ -1,0 +1,9 @@
+# Packages needed by both apps:   pip install -r requirements.txt
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+plotly>=5.24        # go.Scattermap (maps without a Mapbox token)
+streamlit>=1.50     # st.navigation, width="stretch"
+gradio>=6.0         # theme is passed to launch()
+# tests
+pytest>=8
